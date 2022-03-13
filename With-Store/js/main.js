@@ -1,0 +1,23 @@
+$(function(){
+    $('.drawer-btn').on('click',function(){
+        //対象要素.on(イベント名、セレクタ、データ、関数)
+        if($(this).hasClass('active')){
+            $(this).removeClass('active');
+            $('.drawer-nav').removeClass('open');
+        }else{
+            $(this).addClass('active');
+            $('.drawer-nav').addClass('open');
+        }
+    });
+
+    $('.slider').slick({
+        infinite:true,
+        slidesToShow:1,
+        slideToScroll:1,
+        arrows:true,
+        dots:true,
+        autoplay:true,
+        autoplaySpeed:2000,
+        centerMode:false,
+    });
+});
