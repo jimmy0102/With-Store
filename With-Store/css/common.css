@@ -1,0 +1,48 @@
+html{
+    font-size: 62.5%;/* 10px */
+}
+body{
+    font-size: 1.6rem;
+    font-size: clamp(1.6rem, 2.5vw, 2rem);
+    min-height: 0vw;
+}
+h1{
+    font-size: 3.2rem;
+    font-size: clamp(3.2rem, 5.625vw, 4.5rem);
+    min-height: 0vw;
+}
+h2{
+    font-size: 2.4rem;
+    font-size: clamp(2.4rem, 4vw, 3.2rem);
+    min-height: 0vw;
+}
+h3{
+    font-size: 2rem;
+    font-size: clamp(2rem, 3vw, 2.4rem);
+    min-height: 0vw;
+}
+h4{
+    font-size: 1.6rem;
+    font-size: clamp(1.6rem, 2.5vw, 2rem);
+    min-height: 0vw;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+p{
+    font-size: 1.6rem;
+    font-size: clamp(1.6rem, 2.5vw, 2rem);
+    min-height: 0vw;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+.container{
+    min-width: 1200px;
+    margin: 0 auto;
+    padding-left: 2.4rem;
+    padding-left: clamp(2.4rem, 4vw, 3.2rem);
+    padding-right: 2.4rem;
+    padding-right: clamp(2.4rem, 4vw, 3.2rem);
+
+}
